@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Sign Up</h2>
+        
+        <span class="login">
+            Already have an account?<a href="login.html">  Log in</a>
+        </span>
+
+        <input type="text" placeholder="Choose a username" id="unamesignup" required>
+        <input type="text" placeholder="Email" id="uemailsigup" required>
+        
+        <input type="password" placeholder="Choose Password" id="pswsignup" required>
+    
+        <button type="submit" onclick="simulateSignup()">Signup</button>
+        <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+    </div>
+    <script src="../both/accsees.js"></script>
+</body>
+</html>

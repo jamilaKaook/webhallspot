@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Log In</h2>
+        
+        <span class="signup">
+            Need an account? <a href="signup.html"> Signup</a>
+        </span>
+
+        <input type="text" placeholder="Enter Username" id="unamelogin" required>
+    
+        <span class="psw">
+            Forgot <a href="#"> password?</a>
+        </span>
+        
+        <input type="password" placeholder="Password" id="pswlogin" required>
+    
+        <button type="submit" onclick="simulateLogin()">Login</button>
+        <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+    </div>
+    <script src="../both/accsees.js"></script>
+</body>
+</html>
