@@ -1,0 +1,59 @@
+body {
+    font-family: "Source Sans Pro";
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    background-color:rgb(247, 245, 220);
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #edd853;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000;
+}
+
+.signup,
+.psw {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.signup a,
+.psw a {
+    color: dodgerblue;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.signup a:hover,
+.psw a:hover {
+    text-decoration: underline;
+}
